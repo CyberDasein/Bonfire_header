@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="main.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <img src="./img/logo.png" alt="">
+                    <a href="#" class="header__name"> Bonfire </a>
+                    <div class="header__label">so turn the lights out </div>
+                </div>
+                <div class="header__menu" id="toggleMenu">
+                    <nav class="header__items">
+                        <a href="#" class="header__item">
+                            Wish List (0)
+                        </a>
+                        <a href="#" class="header__item">
+                            My Account
+                        </a>
+                        <a href="#" class="header__item">
+                            Shopping Cart
+                        </a>
+                        <a href="#" class="header__item">
+                            Checkout
+                        </a>
+                    </nav>
+                    <div class="burger">
+                        <button class="burger__btn" id="burger">
+                            <img width="16" height="16" src="./img/open-menu.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="cart">
+                        <button id="tooltipBtn" class="cart__btn"></button>
+                        <span class="cart__count">0</span>
+
+                        <div id="tooltipMenu" class="cart__tooltip cart__tooltip--active">
+                            <div class="cart__item">
+                                YOU HAVE 0 ITEMS IN CART
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="navigation__menu">
+                <li class="navigation__item">
+                    <img class="navigation__icon" width="16" height="16" src="img/Home_Icon.png" alt="">
+                    <a href="#" class="navigation__link">Desktops</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Laptop & Notebooks</a>
+                    <ul class="navigation__submenu">
+                        <li class="navigation__submenu-item"> <a href="#">Sony(2)</a> </li>
+                        <li class="navigation__submenu-item"> <a href="#">Android(4)</a> </li>
+                        <li class="navigation__submenu-item"> <a href="#">Apple(7)</a> </li>
+                        <li class="navigation__submenu-item"> <a href="#"> Acer(53)</a> </li>
+                        <li class="navigation__submenu-item"> <a href="#"> HP(78))</a> </li>
+                        <li class="navigation__submenu-item"> <a href="#"> Intel(5)</a> </li>
+                    </ul>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Components</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Tablets</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Software</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Phones & PDAs</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Cameras</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Contacts</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bottom">
+        <div class="container">
+            <div class="bottom__wrap">
+                <div class="bottom__text">Welcome visitor you can login or create an account.</div>
+                <div class="bottom__inner">
+                    <div class="socials">
+                        <a class="socials__item" href="#">
+                            <img src="img/link1.png" alt="">
+                        </a>
+                        <a class="socials__item" href="#">
+                            <img src="img/link2.png" alt="">
+                        </a>
+                        <a class="socials__item" href="#">
+                            <img src="img/link3.png" alt="">
+                        </a>
+                        <a class="socials__item" href="#">
+                            <img src="img/link4.png" alt="">
+                        </a>
+                    </div>
+                    <form class="options">
+                        <select class="options__rate" name="rate" id="">
+                            <option>Dollars</option>
+                            <option>Euro</option>
+                        </select>
+                        <div class="options__search-wrap">
+                            <input placeholder="Search" class="options__search" type="text">
+                            <button class="options__btn" type="submit">
+                                <img width="13" height="11" src="img/search.png" alt="">
+                            </button>
+                        </div>      
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
